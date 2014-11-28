@@ -1,12 +1,21 @@
 /* Set Your Own Margin & Padding */
-h2, h3, p {
-	margin: 0;
+h1, h2, h3, p, em {
+	margin: 0 80px;
 }
 
 /* Layout for Style Tile*/
 section {
-	margin: 20px 0;
+	margin: 20px;
 }
+
+div:first-child {
+	margin-left:80px;
+}
+div+em{
+	margin-left: 20px;
+}
+
+/*TILES*/
 
 .color-1,
 .color-2,
@@ -21,6 +30,21 @@ section {
 	width: 50px;
 }
 
+/*LINKS*/
+
+a:link {
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+a:visited {
+	color:darkgrey;
+}
+
+a:hover {
+	font-size: 1.10em;
+}
 
 /* Show Grid */
 .showgrid {
