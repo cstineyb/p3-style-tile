@@ -1,5 +1,10 @@
 /* Set Your Own Margin & Padding */
+body {
+	background: #000;
+}
+
 h1, h2, h3, p, em, ul {
+	color:#e6e6e6;
 	margin: 0 80px;
 }
 
@@ -24,6 +29,7 @@ ul {
 	text-indent: -20px;
 }
 li {
+
 	margin: 5px;
 }
 em {
@@ -37,28 +43,51 @@ em {
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 1px solid #000;
 	float: left;
 	margin: 0 10px;
 	height: 50px;
 	width: 50px;
 }
 
-/*LINKS*/
-
-a:link {
-	color:#808;
-	text-decoration: none;
-	font-weight: bold;
+.color-1 {
+	background: #333;
 
 }
 
+.color-2 {
+	background: #333;
+
+}
+.color-3 {
+	background: #333;
+
+}
+
+.pattern-1
+
+.pattern-2
+
+.pattern-3
+
+/*LINKS*/
+
+
+a:link {
+	color: darkgrey;
+	font-weight: bold;
+	
+}
+
 a:visited {
-	color:darkgrey;
+	color: #666699;
+
 }
 
 a:hover {
 	font-size: 1.10em;
+}
+a {
+	text-decoration: none;
 }
 
 /* Show Grid */
