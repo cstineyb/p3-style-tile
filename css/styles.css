@@ -1,5 +1,5 @@
 /* Set Your Own Margin & Padding */
-h1, h2, h3, p, em {
+h1, h2, h3, p, em, ul {
 	margin: 0 80px;
 }
 
@@ -7,14 +7,28 @@ h1, h2, h3, p, em {
 section {
 	margin: 20px;
 }
-
+img	{
+	margin-left: -30px;
+}
 div:first-child {
 	margin-left:80px;
 }
 div+em{
 	margin-left: 20px;
 }
-
+footer h3 {
+	margin-left: 100px;
+}
+ul {
+	list-style: none;
+	text-indent: -20px;
+}
+li {
+	margin: 5px;
+}
+em {
+	line-height: 1.75;
+}
 /*TILES*/
 
 .color-1,
@@ -33,6 +47,7 @@ div+em{
 /*LINKS*/
 
 a:link {
+	color:#808;
 	text-decoration: none;
 	font-weight: bold;
 
